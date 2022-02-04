@@ -28,7 +28,7 @@
         color:rgb(255, 255, 255);
     }
     .links label:hover{
-        background-color: rgba(0, 0, 0, 0.808);
+        background-color: rgba(0, 0, 0, 0.801);
     }
    .scroll input{
        display: none;
@@ -54,6 +54,13 @@
         background-position: center;
         background-size: cover;
     }
+    #criador{
+        background-image: url(tectec.jpg);
+        width: 100%;
+        background-position: center;
+        height: 100vh;
+        background-size: cover;
+    }
     .scroll{
         display: flex;
         width: 100vw;
@@ -65,6 +72,9 @@
     }
     #rd_contato:checked ~ .sections{
         margin-top: -100vh;
+    }
+    #rd_criador:checked ~.sections{
+        margin-top: -200vh;
     }
     #textofinal{
         justify-content: center;
@@ -89,10 +99,12 @@
     <nav class="links">
         <label for="rd_valorização">Valorização</label>
         <label for="rd_contato">Contato</label>
+        <label for="rd_criador">Criador</label>
     </nav>
 <div class="scroll">
     <input type="radio" name="grupo" id="rd_valorização" checked="true">
     <input type="radio" name="grupo" id="rd_contato">
+    <input type="radio" name="grupo" id="rd_criador">
 
     <section class="sections">
     <section class="bloco" id="valorização">
@@ -114,13 +126,24 @@
             Envie um e-mail para: <a href="mailto:jualvaguiar2020@gmail.com">Juan
             </a><br>
             Telefone:<a href="tel:+55991590894">(11)99159-0894</a><br>
-            Obrigado pela Visita em meu Site (:
         </address>
-
         </h1>
         </div>
     </section>
-    
+    <section class="bloco" id="criador">
+        <div>
+            <h1 id="textofinal"> Olá, eu me chamo Juan Alonso tenho 16 anos, meu objetivo é trabalhar na área de tecnologia. Sou apaixonado por tudo que envolve essa área, busco cada vez mais conhecimentos. E estou á procura de uma opotunidade, para ingressar na área de Tecnologia. 
+                <br>
+                <br>
+                Esse foi um dos meus primeiros projetos e sites, o tema foi escolhido por ser extremamente tecnológico e criptomoedas tem tudo a ver com isso. E tive a idéia de criar um site relacionado. E este site está em linguagens HTML, CSS e um pouco de javascript. 
+                <br>
+                <br>
+                Muitos me falaram para eu sair da área de tecnologia, pois é muito dificil, mais o que não é? Você não não vai dar certo e eu respondi: As mentes mais poderosas e brilhantes têm objetivos, as demais, têm desejos, ("Washington Irwin") Nunca desista dos seus ojetivos e sonhos. Só Você pode tornar-lô realidade. 
+                <br>
+                <br>
+                Muito Obrigado Pela Visita Em Meu Site :)
+
+        </div>
 
 </section>
 </div>    
